@@ -11,7 +11,7 @@ namespace chat_server
     {
         public static void Main(string[] args)
         {
-            var server = new ChatService("127.0.0.1", 4444);
+            var server = new ChatService("192.168.0.55", 4444);
             server.Start();
         }
     }

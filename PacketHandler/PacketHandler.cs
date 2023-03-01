@@ -61,10 +61,11 @@ namespace chat_server.PacketHandler
                 case PacketType.CHATMESSAGE:
                     string message = ((ChatMessagePacket) packet).message;
                     ChatMessagePacket chatMessage =
-                        new ChatMessagePacket("[" + client.Username + "]: " + message);
+                        new ChatMessagePacket("[" + client.Username + "]: " + message+ ": from Server");
                     foreach (Client connectedClient in _connectedClients)
                     {
                         connectedClient.SendPacket(chatMessage);
+                        Console.WriteLine(message);
                     }
 
                     break;

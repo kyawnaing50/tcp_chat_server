@@ -37,8 +37,8 @@ namespace chat_server
             
             formatter.Serialize(memStream, packet);
             byte[] buffer = memStream.GetBuffer();
-            Writer.Write(buffer.Length);
-            Writer.Write(buffer);
+          //  Writer.Write(buffer.Length);
+          //  Writer.Write(buffer);
             Writer.Flush();
 
         }
