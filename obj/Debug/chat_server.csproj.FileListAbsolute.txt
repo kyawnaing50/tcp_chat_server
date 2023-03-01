@@ -1,0 +1,11 @@
+D:\MY UPDATE PROJECTS\2ndVersion\chat_server\bin\Debug\chat_server.exe.config
+D:\MY UPDATE PROJECTS\2ndVersion\chat_server\bin\Debug\chat_server.exe
+D:\MY UPDATE PROJECTS\2ndVersion\chat_server\bin\Debug\chat_server.pdb
+D:\MY UPDATE PROJECTS\2ndVersion\chat_server\obj\Debug\chat_server.csproj.AssemblyReference.cache
+D:\MY UPDATE PROJECTS\2ndVersion\chat_server\obj\Debug\chat_server.csproj.SuggestedBindingRedirects.cache
+D:\MY UPDATE PROJECTS\2ndVersion\chat_server\obj\Debug\chat_server.csproj.CoreCompileInputs.cache
+D:\MY UPDATE PROJECTS\2ndVersion\chat_server\obj\Debug\chat_server.exe
+D:\MY UPDATE PROJECTS\2ndVersion\chat_server\obj\Debug\chat_server.pdb
+D:\MY UPDATE PROJECTS\2ndVersion\chat_server\bin\Debug\Packets.dll
+D:\MY UPDATE PROJECTS\2ndVersion\chat_server\bin\Debug\Packets.pdb
+D:\MY UPDATE PROJECTS\2ndVersion\chat_server\obj\Debug\chat_server.csproj.CopyComplete
