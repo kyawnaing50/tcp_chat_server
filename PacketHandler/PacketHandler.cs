@@ -33,7 +33,7 @@ namespace chat_server.PacketHandler
             int noOfIncomingBytes;
             while ((noOfIncomingBytes = client.Reader.ReadInt32()) != 0)
             {
-                Console.WriteLine(noOfIncomingBytes);
+               // Console.WriteLine(noOfIncomingBytes);
 
                 byte[] bytes = client.Reader.ReadBytes(noOfIncomingBytes);
                 MemoryStream memStream = new MemoryStream(bytes);
