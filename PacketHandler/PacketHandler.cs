@@ -23,6 +23,11 @@ namespace chat_server.PacketHandler
             _connectedClients = connectedClients;
         }
 
+        /*
+        int numOfReadByte
+        numOfReadByteByte=
+
+         */
         public void HandleForClient(Client client)
         {
             int noOfIncomingBytes;
@@ -61,7 +66,7 @@ namespace chat_server.PacketHandler
                 case PacketType.CHATMESSAGE:
                     string message = ((ChatMessagePacket) packet).message;
                     ChatMessagePacket chatMessage =
-                        new ChatMessagePacket("[" + client.Username + "]: " + message+ ": from Server");
+                        new ChatMessagePacket("[" + client.Username + "]: " + message);
                     foreach (Client connectedClient in _connectedClients)
                     {
                         connectedClient.SendPacket(chatMessage);
